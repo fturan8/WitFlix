@@ -1,5 +1,6 @@
 body{
-    padding: 10px 500px;
+    justify-content: center;
+    margin: 0% 15%;
     font-family: 'Inter';
 }
 
@@ -10,12 +11,12 @@ header{
 }
 
 p{
-    font-size: 25px;
+    font-size: 18px;
     color: black;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 span{
@@ -26,7 +27,7 @@ span{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 30px;
     color: #FF0000;
     margin: 20px 0px;
 }
@@ -40,7 +41,7 @@ span{
 }
 
 input{
-    height: 35px;
+    height: 28px;
     background-image: url(/searchicon.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -52,12 +53,12 @@ header nav a{
     margin: 0px 10px;
     color: #7F7F7F;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 header img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 .hero-content{
@@ -112,7 +113,7 @@ ul{
 
 li{
     padding: 5px 0px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -122,18 +123,18 @@ ul span{
 
 .btn-lg{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     background-color: #FF0000;
     border-radius: 10px;
-    padding: 20px;
+    padding: 12px;
     margin: 10px 0px;
 }
 
 .suggestion-title {
     display: flex;
     justify-content: space-between;
-    font-size: larger;
+    font-size: 18px;
 }
 
 .suggestion-content {
@@ -145,7 +146,7 @@ ul span{
 
 .suggestion-item {
     border: 1px solid black;
-    width: 500px;
+    width: 350;
     padding: 0px 20px;
 }
 
@@ -156,6 +157,7 @@ ul span{
 
 footer{
     display: flex;
+    
     margin-top: 40px;
     justify-content: space-between;
     gap: 20px;
@@ -163,62 +165,95 @@ footer{
 }
 footer p{
     color: #7F7F7F;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 0px;
 }
 
 .footer-links nav{
     display: flex;
-    gap: 100px;
+    gap: 50px;
 }
 
 .footer-links nav a{
     align-items: center;
     color: #7F7F7F;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .copyright{
-    font-size: 18px;
+    font-size: 15px;
     color: black;
-    width: 90%;
+    width: 80%;
     margin-top: 10px;
 }
 
 .follow div{
     display: flex;
+    
 }
 .follow img{
-    width: 50px;
+    width: 30px;
     height: auto;
 }
 
 .apps div{
     display: flex;
+    
 }
 
 .apps img{
-    width: 250px;
+    width: 200px;
     height: auto;
 }
-
 
 
 @media (max-width: 500px) {
     body {
       min-width: 400px;
-      padding: 10px;
+      margin: 0% 10%;
     }
 
-    header{
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: row;
-        display: flex;
+    p{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    
+    input{
+        width: 100%;
+    }
+
+    header nav a{
+        display: block;
+        font-size: 15px;
+    }
+    
+    .hero-content p{
+        width: 100%;
+    }
+
+    li{
+        font-size: 15px;
+    }
+
+    .movie-info{
+        width: 100%;
+    }
+
+    .suggestion-title {
+        font-size: 15px;
+    }
+
+    .suggestion-item {
+        width: 35%;
+    }
+
+    footer{
         flex-wrap: wrap;
     }
-   
   }
   
 
